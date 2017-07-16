@@ -14,7 +14,7 @@
    var password=$scope.password;
    var data={username:username,password:password};
    $http({
-        url: 'http://videoupload.hopto.org:5000/api/users_login',
+        url: 'http://:5000/api/users_login',
         method: "POST",
         data: data
     })
